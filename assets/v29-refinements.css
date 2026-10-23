@@ -1,0 +1,36 @@
+/* V29: scoped visual refinements, preserving V28 page layout and editor */
+.site-header{background:#f8f4e9!important;color:#172b25!important;box-shadow:0 2px 16px rgba(0,32,25,.08);padding-left:3.5%!important;padding-right:3.5%!important;gap:1.4%!important}
+.site-header .logo:before{display:none!important}
+.site-header .logo{color:#003e34!important;gap:9px!important;white-space:nowrap;font-size:clamp(18px,1.8vw,27px)!important}
+.site-header .official-b-logo{height:49px;width:70px;object-fit:contain;flex-shrink:0}
+.site-header .main-nav{gap:clamp(8px,1.1vw,18px)!important}
+.site-header .main-nav a{color:#141c18!important;font-size:clamp(10px,.84vw,13px)!important;font-weight:900!important;letter-spacing:.01em!important}
+.site-header .main-nav a:hover,.site-header .main-nav .active{border-bottom-color:#1d705a!important}
+.site-header .head-tools button{color:#152d26!important}
+.site-header .head-tools select,.site-header .lang-pill{background:#f1eadc!important;color:#132d26!important;border-color:#d7d0bf!important}
+.editorial-footer-brand .official-b-logo{height:34px;width:45px;object-fit:contain;vertical-align:middle;margin-right:5px}
+/* Place slide numbers above arrows, at the bottom right of the existing hero. */
+.hero-navigation{position:absolute;right:3.5%;bottom:20px;z-index:8;display:flex;flex-direction:column;align-items:center;gap:10px}
+.hero-navigation .slide-indicators{position:static!important;display:flex;gap:20px}
+.hero-navigation .hero-controls{position:static!important;display:flex;gap:16px}
+.hero-navigation .hero-controls button{width:40px;height:40px;font-size:21px}
+.hero-navigation .slide-indicators button{color:#fff}
+@media(max-width:900px){.site-header{height:68px!important}.site-header .main-nav{background:#f8f4e9!important;top:68px!important;box-shadow:0 10px 20px #0002}.site-header .main-nav a{font-size:14px!important}.site-header .hamburger{background:#00352e!important;color:#fff!important}.site-header .official-b-logo{height:42px;width:60px}.hero-navigation{right:4%;bottom:14px;gap:8px}.hero-navigation .hero-controls button{width:36px;height:36px}}
+@media(max-width:600px){.site-header .logo{font-size:18px!important}.site-header .official-b-logo{width:48px;height:38px}.hero-navigation{right:4%;bottom:12px}}
+
+/* V31: carousel number typography — selected 30px bold, idle 20px regular. */
+.hero-navigation .slide-indicators{align-items:baseline;min-height:47px}
+.hero-navigation .slide-indicators button{
+  font-family:Manrope,Arial,sans-serif!important;
+  font-size:20px!important;
+  font-weight:400!important;
+  line-height:1.25!important;
+  min-width:38px;
+  padding:5px 0!important;
+  transition:font-size .2s ease,font-weight .2s ease,border-color .2s ease;
+}
+.hero-navigation .slide-indicators button.selected,
+.hero-navigation .slide-indicators button[aria-current="true"]{
+  font-size:30px!important;
+  font-weight:800!important;
+}

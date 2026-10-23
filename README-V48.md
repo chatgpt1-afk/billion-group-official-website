@@ -1,0 +1,1 @@
+V48: News language support (English, Bahasa Melayu, Simplified Chinese) across news list and three articles; fixed article Back to News position and removed erroneous UTAR paragraphs from other stories. All other V47 pages unchanged.\n

@@ -1,0 +1,5 @@
+/* V48: keep article navigation clear of the sticky header */
+.journal-article{padding-top:clamp(130px,13vw,185px)!important}
+.journal-back{position:relative;z-index:2;margin-bottom:42px}
+.journal-article-body p,.journal-standfirst{text-align:justify;text-justify:inter-word}
+@media(max-width:700px){.journal-article{padding-top:125px!important}.journal-article-body p{text-align:left}}

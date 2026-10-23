@@ -1,0 +1,1 @@
+V12 homepage design based on user-approved reference image. Open index.html in Chrome. All AI concept images are for design review, not actual store photos. Hero has previous/next controls. Gallery moves slowly automatically with arrows, pause and mobile swipe. Other pages retain V11 functionality.

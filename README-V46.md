@@ -1,0 +1,1 @@
+V46: Two full news articles added: Malacca MOU (4 user photos) and Segamat closure (1 user photo). News listing ordered newest first. Original V45 editor and design retained. Original captions are descriptive and do not identify unknown people. Segamat source attribution preserved. English article copy provided by user.

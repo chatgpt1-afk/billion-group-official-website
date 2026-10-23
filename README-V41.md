@@ -1,0 +1,1 @@
+V41: All four scrolling ribbon phrases translate with EN/BM/中文. Adds a lightbulb button immediately after the language selector for persistent light/dark mode. Built from V40; existing visual editor and pages preserved.

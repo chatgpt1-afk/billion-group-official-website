@@ -1,0 +1,16 @@
+/* V51: compact equal-sized news entries, consistent article width */
+.page-news .journal-content .v46-news-card{height:240px!important;min-height:240px!important;grid-template-columns:43% 57%!important;margin-bottom:18px!important}
+.page-news .v46-news-card .journal-feature-photo{height:240px!important;min-height:240px!important}
+.page-news .v46-news-card .journal-feature-text{padding:15px 28px!important;justify-content:center!important}
+.page-news .v46-news-card h2{margin:6px 0!important;line-height:1.18!important;-webkit-line-clamp:2!important}
+.page-news .v46-news-card p{-webkit-line-clamp:2!important;line-height:1.28!important}
+.page-news .v46-news-card .journal-read{margin-top:4px!important}
+.journal-article .journal-article-body,.journal-article .journal-lead-image,.journal-article .journal-second-image,.journal-article .v46-gallery{width:min(100%,1040px)!important;max-width:1040px!important;box-sizing:border-box}
+.journal-article .journal-article-body{padding-left:0!important;padding-right:0!important}
+.journal-article .journal-article-body p{max-width:none!important;width:100%!important}
+.journal-article .journal-back{transform:translate(-210px,-28px);display:inline-block;position:relative;z-index:5}
+#about-journey-v50{padding:90px 2% 130px!important}
+#about-journey-v50 #milestone{max-width:1700px!important}
+#about-journey-v50 #milestone .journey-layout{grid-template-columns:minmax(0,1.35fr) minmax(0,1fr)!important;gap:35px!important}
+#about-journey-v50 #milestone .roadwrap{transform:scale(1.13)!important;transform-origin:top left!important;margin-bottom:65px}
+@media(max-width:850px){.page-news .journal-content .v46-news-card{height:auto!important;min-height:0!important;grid-template-columns:1fr!important}.page-news .v46-news-card .journal-feature-photo{height:210px!important;min-height:0!important}.journal-article .journal-back{transform:translate(-25px,-12px)}#about-journey-v50 #milestone .journey-layout{grid-template-columns:1fr!important}#about-journey-v50 #milestone .roadwrap{transform:none!important;margin-bottom:0}}

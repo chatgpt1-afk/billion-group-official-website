@@ -1,0 +1,17 @@
+
+/* V36: language control and back to top on every page */
+.v36-tools{position:fixed;right:22px;bottom:24px;z-index:900;display:flex;flex-direction:column;align-items:flex-end;gap:10px;font-family:Manrope,Arial,sans-serif}
+.v36-lang{display:flex;align-items:center;gap:6px;padding:7px 9px 7px 13px;border-radius:30px;background:#faf6ec;border:1px solid #e2ded2;box-shadow:0 8px 24px #102f2825;color:#173f33;font-size:12px;font-weight:800}
+.v36-lang select{border:0;outline:0;background:transparent;color:#173f33;font:700 12px Manrope,Arial,sans-serif;cursor:pointer;padding:5px 3px}
+.v36-top{display:flex;align-items:center;justify-content:center;width:45px;height:45px;border:1px solid #315b4d;border-radius:50%;background:#124335;color:#fff;box-shadow:0 8px 24px #102f282e;cursor:pointer;font-size:23px;transition:opacity .2s,transform .2s}
+.v36-top:not(.v36-visible){opacity:0;pointer-events:none;transform:translateY(8px)}
+.v36-top:hover{background:#21664e;transform:translateY(-3px)}
+body.v36-editor-open .v36-tools{right:calc(min(420px,36vw) + 24px)}
+@media(max-width:760px){.v36-tools{right:14px;bottom:15px}.v36-lang{padding:5px 8px}.v36-top{width:42px;height:42px}body.v36-editor-open .v36-tools{right:14px;bottom:90px}}
+
+/* V38: one language switcher, beside search in every page header */
+.head-tools .v36-lang{position:static;display:inline-flex;align-items:center;gap:6px;background:#faf6ec;color:#153c32;border:1px solid #e6e1d4;border-radius:24px;box-shadow:none;padding:5px 9px;white-space:nowrap}
+.head-tools .v36-lang select{color:#153c32;background:transparent;min-width:45px;font-size:12px;padding:4px 1px}
+.v36-tools{pointer-events:none}.v36-tools .v36-top,.v36-tools .v36-fallback{pointer-events:auto}
+.v36-tools .v36-fallback{position:fixed;right:16px;top:14px;bottom:auto}
+@media(max-width:900px){.head-tools{display:flex;gap:7px}.head-tools .v36-lang{padding:4px 6px}.head-tools .v36-lang select{min-width:40px;font-size:11px}}

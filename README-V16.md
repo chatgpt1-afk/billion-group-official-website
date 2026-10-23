@@ -1,0 +1,1 @@
+V16: Seven V15 homepage photo assets have been cleaned of baked-in overlay labels and UI text. All real HTML labels remain. Image reconstruction/inpainting may show softness in cleaned areas. Replace with original clean photos for production.

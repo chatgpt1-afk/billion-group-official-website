@@ -1,0 +1,8 @@
+/* V35: Only About Us and Brands appear at the first dropdown level. */
+.v33-nav .brand-submenu{position:relative}
+.v33-nav .brand-submenu-parent{display:flex!important;align-items:center;justify-content:space-between;gap:26px}
+.v33-nav .brand-submenu-parent span{font-size:20px;line-height:0.8}
+.v33-nav .brand-submenu-items{display:none;position:absolute;left:calc(100% - 3px);top:0;min-width:185px;flex-direction:column;gap:1px;padding:10px;background:#fcf9f0;border:1px solid #e7e3d7;border-radius:14px;box-shadow:0 18px 40px #102b2630;z-index:110}
+.v33-nav .brand-submenu:hover>.brand-submenu-items,.v33-nav .brand-submenu:focus-within>.brand-submenu-items,.v33-nav .brand-submenu.is-open>.brand-submenu-items{display:flex}
+.about-v33 #our-brands{scroll-margin-top:110px}
+@media(max-width:900px){.v33-nav .brand-submenu-items{display:flex;position:static;min-width:0;border:0;box-shadow:none;background:transparent;padding:0 0 4px 18px}.v33-nav .brand-submenu-parent span{transform:rotate(90deg)}.v33-nav .brand-submenu-items a{font-size:13px!important;padding:10px 12px!important}}

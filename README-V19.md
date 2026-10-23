@@ -1,0 +1,1 @@
+V19: Replaced overexposed synthetic-looking homepage hero with a more naturally lit produce aisle crop. Reduced saturation and contrast. Maintains interactive layout and slides. This is a concept image crop, not a real Billion location.

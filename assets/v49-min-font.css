@@ -1,0 +1,4 @@
+/* V49 global readability floor. The JS companion preserves larger original sizes. */
+html { -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+body { font-size: max(20px, 1rem); }
+input, textarea, select, button { font-size: max(20px, 1em); }

@@ -1,0 +1,1 @@
+V45: Justified news headings and paragraphs; streamlined visual editor with single Delete button, Undo/Redo, manual Save and icon alignment (left, center, right, justify). Removed reset and JSON backup controls. Existing locally saved edits remain intact.

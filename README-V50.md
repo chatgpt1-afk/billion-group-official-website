@@ -1,0 +1,1 @@
+V50: About Us now includes enlarged truck timeline and full 1985–2024 stories. News list cards use consistent compact heights. Article text and images use aligned column widths. Visual Editor saved text overrides take priority over automated news translation. Browser localStorage edits remain local and are language-independent for manually overridden text.

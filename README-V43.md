@@ -1,0 +1,1 @@
+V43: Dark mode white sun icon and BILLION logo text; About Us animated 5 impact counters; News editorial layout with sourced historical milestones. All new text has English/Malay/Chinese translation. No fictitious breaking news. Counter numbers provided by site owner.

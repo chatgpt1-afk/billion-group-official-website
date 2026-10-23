@@ -1,0 +1,1 @@
+V22: Hero 03 now uses the same supplied Billion outlet image as the Outlets tile (upscaled 2060x1552 with modest sharpening). Hero 04 now uses the same faceless staff photo as the Careers tile. Source outlet photo is only 515x388; true native HD detail cannot be recovered by upscaling. No other page changes.

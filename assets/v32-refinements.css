@@ -1,0 +1,6 @@
+/* V32: crop outlet photography from the upper part of the source image. */
+.hero-photo:has(~ .hero-navigation .slide-indicators button[data-slide="2"].selected){background-position: center top !important;}
+body:has(.slide-indicators button[data-slide="2"].selected) .hero-photo{background-position:center top !important;}
+body:has(.slide-indicators button[data-slide="2"].selected) .hero-photo{background-size:cover;}
+body:has(a[href="outlets.html"].active) .editorial-photo img{object-position:center top;}
+@media(max-width:900px){body:has(.slide-indicators button[data-slide="2"].selected) .hero-photo{background-position:center top !important;}}

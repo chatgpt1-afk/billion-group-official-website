@@ -1,0 +1,1 @@
+V52: Join Us navigation and five front-end forms. Forms validate in browser only. No backend, no password transmission/storage, no uploads or emails. Membership terms placeholder requires legal approval. Connect secure HTTPS backend before production.

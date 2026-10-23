@@ -1,0 +1,1 @@
+V49: All website pages enforce a minimum computed font size of 20px for visible text. Larger existing typography is retained. Applies after language switches and visual-editor changes. Note: small badges, labels and navigation can wrap; inspect responsive layouts.

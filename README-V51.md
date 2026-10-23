@@ -1,0 +1,1 @@
+V51: larger About journey stage, compact equal-height news cards, wider article body, Back to News offset, and shared saved news title/summary between listing and article pages. Browser localStorage scope applies.
